@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  padding: 15px;
+  width: 70vw;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title h3,
+h4 {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.5em;
+}
+.name {
+  color: var(--accent);
+}
+.owner {
+  color: var(--text-secondary);
+}
+
+.description {
+  display: flex;
+  max-width: 80%;
+}
+
+.tags {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.tags span {
+  font-size: 0.8rem;
+  border-radius: 10px;
+  padding: 4px 10px;
+  background-color: var(--primary-100);
+  border: 1px solid var(--primary-200);
+  color: var(--primary-700);
+}

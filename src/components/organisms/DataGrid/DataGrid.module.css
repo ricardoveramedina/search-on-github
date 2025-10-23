@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* max-height: 100vh; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 4px;
+  height: 70vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-bar) var(--gray-100);
+}

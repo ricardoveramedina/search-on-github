@@ -1,0 +1,34 @@
+.primary {
+  display: flex;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.primary button {
+  border: 1px solid #d0d7de;
+  background: white;
+  color: #3b3f46;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary button:hover {
+  background-color: #eef3f8;
+}
+
+.primary button.active {
+  background-color: #3790ff;
+  color: white;
+  font-weight: bold;
+}
+.primary button.active:hover {
+  background-color: #2e7ae6;
+  box-shadow: 0 0 6px rgba(55, 144, 255, 0.6);
+}
+
+.primary button:disabled {
+  opacity: 0.4;
+}

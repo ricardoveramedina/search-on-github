@@ -1,0 +1,75 @@
+{
+  "total": 10,
+  "items": [
+    {
+      "id": 1,
+      "name": "react",
+      "owner": "facebook",
+      "description": "The library for web and native user interfaces.",
+      "rate": 228000
+    },
+    {
+      "id": 2,
+      "name": "vue",
+      "owner": "vuejs",
+      "description": "The Progressive JavaScript Framework",
+      "rate": 207000
+    },
+    {
+      "id": 3,
+      "name": "tensorflow",
+      "owner": "tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "rate": 185000
+    },
+    {
+      "id": 4,
+      "name": "bootstrap",
+      "owner": "twbs",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "rate": 170000
+    },
+    {
+      "id": 5,
+      "name": "awesome",
+      "owner": "sindresorhus",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "rate": 317000
+    },
+    {
+      "id": 6,
+      "name": "vscode",
+      "owner": "microsoft",
+      "description": "Visual Studio Code",
+      "rate": 163000
+    },
+    {
+      "id": 7,
+      "name": "next.js",
+      "owner": "vercel",
+      "description": "The React Framework",
+      "rate": 125000
+    },
+    {
+      "id": 8,
+      "name": "node",
+      "owner": "nodejs",
+      "description": "Node.js JavaScript runtime",
+      "rate": 107000
+    },
+    {
+      "id": 9,
+      "name": "angular",
+      "owner": "angular",
+      "description": "Deliver web apps with confidence",
+      "rate": 96000
+    },
+    {
+      "id": 10,
+      "name": "create-react-app",
+      "owner": "facebook",
+      "description": "Set up a modern web app by running one command.",
+      "rate": 102000
+    }
+  ]
+}
