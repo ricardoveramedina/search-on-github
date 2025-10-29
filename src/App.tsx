@@ -1,9 +1,13 @@
+import { useEffect } from "react";
+import Main from "./views/Main";
+
 function App() {
-  return (
-    <div>
-      <h1>Search on GitHub</h1>
-    </div>
-  )
+  const selectedTheme = "dark";
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", selectedTheme);
+    document.body.setAttribute("data-theme", selectedTheme);
+  }, [selectedTheme]);
+  return <Main />;
 }
 
-export default App
+export default App;

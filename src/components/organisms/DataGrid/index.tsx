@@ -1,8 +1,8 @@
 import Card from "@components/atoms/Card";
-import GithubDataType from "@root/types/GithubDataType";
 import Pagination from "@root/components/molecules/Pagination";
 import loadingGif from "@assets/spinning-loading.gif";
 import styles from "./DataGrid.module.css";
+import { GithubDataType } from "@root/types/GithubDataType";
 
 type DataGridProps = {
   data: GithubDataType;
@@ -22,10 +22,10 @@ export default function DataGrid({
 
   return (
     <div className={styles.main}>
-      {loading && (
-        <img src={loadingGif} alt="loading" className={styles.loading} />
-      )}
       <div className={styles.container}>
+        {loading && (
+          <img src={loadingGif} alt="loading" className={styles.loading} />
+        )}
         {data.items?.map((item) => {
           return (
             <Card

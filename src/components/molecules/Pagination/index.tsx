@@ -16,9 +16,7 @@ export default function Pagination({
 }: PaginationProps) {
   return (
     <div className={styles.pagination}>
-      <span>
-        Page: {page} of {totalPages}
-      </span>
+      <span>Page: {totalPages && `${page} of ${totalPages}`}</span>
       <span>{totalRecords || 0} Found</span>
       <PaginationButtons count={totalPages} handleClick={handleClick} />
     </div>

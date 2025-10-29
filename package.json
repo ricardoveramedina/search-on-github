@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -15,6 +17,8 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@octokit/core": "^7.0.5",
+    "@octokit/plugin-throttling": "^11.0.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

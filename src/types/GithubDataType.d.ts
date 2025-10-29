@@ -1,4 +1,4 @@
-type GithubDataType = {
+export type GithubDataType = {
   total: number;
   items: {
     id: number;
@@ -8,4 +8,3 @@ type GithubDataType = {
     rate: number;
   }[];
 };
-export default GithubDataType;

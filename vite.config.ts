@@ -38,13 +38,24 @@ export default defineConfig({
           setupFiles: [".storybook/vitest.setup.ts"],
         },
       },
+      {
+        extends: true,
+        test: {
+          name: "unit",
+          environment: "node",
+          include: ["src/**/*.{test,spec}.{js,ts}"],
+        },
+      },
     ],
   },
   resolve: {
     alias: {
-      "@root": path.resolve(__dirname, "./src"),
       "@components": path.resolve(__dirname, "./src/components"),
       "@assets": path.resolve(__dirname, "./src/assets"),
+      "@api": path.resolve(__dirname, "./src/api"),
+      "@lib": path.resolve(__dirname, "./src/lib"),
+      "@constants": path.resolve(__dirname, "./src/constants"),
+      "@root": path.resolve(__dirname, "./src"),
     },
   },
 });
