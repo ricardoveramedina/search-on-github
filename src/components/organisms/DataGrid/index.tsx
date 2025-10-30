@@ -34,7 +34,7 @@ export default function DataGrid({
               owner={item.owner}
               description={item.description}
               rate={item.rate}
-              // tags={item.tags}
+              topics={item.topics}
             />
           );
         })}

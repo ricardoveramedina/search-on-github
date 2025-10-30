@@ -20,6 +20,7 @@ export async function search(
         owner: item.owner?.login,
         description: item.description,
         rate: item.stargazers_count,
+        topics: item.topics,
       };
     });
     return {

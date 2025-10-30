@@ -4,8 +4,8 @@ type CardProps = {
   name: string;
   owner: string;
   description: string;
-  tags?: string[];
   rate: number;
+  topics?: string[];
 };
 
 export default function Card({
@@ -13,7 +13,7 @@ export default function Card({
   owner,
   description,
   rate,
-  tags,
+  topics,
 }: CardProps) {
   return (
     <div className={styles.container}>
@@ -25,13 +25,13 @@ export default function Card({
           by {owner} ⭐ {rate}
         </h4>
       </div>
-      <div id="description" className={styles.description}>
+      <p id="description" className={styles.description} title={description}>
         {description}
-      </div>
-      <div id="tags" className={styles.tags}>
-        {tags?.map((item) => {
-          return <span>{item}</span>;
-        })}
+      </p>
+      <div id="topics" className={styles.topics}>
+        {topics?.slice(0, 5).map((item) => (
+          <span>{item}</span>
+        ))}
       </div>
     </div>
   );

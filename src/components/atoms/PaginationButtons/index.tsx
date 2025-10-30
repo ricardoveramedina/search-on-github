@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./PaginationButtons.module.css";
 
 type PaginationButtonsProps = {
@@ -23,6 +23,10 @@ export default function PaginationButtons({
     handleClick(value);
     setPage(value);
   };
+
+  useEffect(() => {
+    setPage(currentPage);
+  }, [currentPage]);
 
   return (
     <div className={styles.primary}>

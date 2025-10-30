@@ -1,14 +1,14 @@
 .primary {
   display: flex;
-  border: 1px solid #d0d7de;
+  border: 1px solid var(--border-primary);
   border-radius: 4px;
   overflow: hidden;
 }
 
 .primary button {
-  border: 1px solid #d0d7de;
-  background: white;
-  color: #3b3f46;
+  border: 1px solid var(--border-primary);
+  background-color: var(--bg-dark-gray);
+  color: var(--text-light);
   padding: 6px 12px;
   font-size: 14px;
   cursor: pointer;
@@ -16,19 +16,22 @@
 }
 
 .primary button:hover {
-  background-color: #eef3f8;
+  background-color: var(--bg-hover-gray);
 }
 
 .primary button.active {
-  background-color: #3790ff;
-  color: white;
+  background-color: var(--bg-active-blue);
+  color: var(--text-white);
   font-weight: bold;
 }
+
 .primary button.active:hover {
-  background-color: #2e7ae6;
-  box-shadow: 0 0 6px rgba(55, 144, 255, 0.6);
+  background: var(--bg-active-hover);
+  box-shadow: 0 0 14px var(--shadow-blue);
+  transform: scale(1.08);
 }
 
 .primary button:disabled {
   opacity: 0.4;
+  cursor: not-allowed;
 }

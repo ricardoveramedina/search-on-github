@@ -6,5 +6,6 @@ export type GithubDataType = {
     owner: string;
     description: string;
     rate: number;
+    topics: string[];
   }[];
 };
