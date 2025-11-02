@@ -6,70 +6,86 @@
       "name": "react",
       "owner": "facebook",
       "description": "The library for web and native user interfaces.",
-      "rate": 228000
+      "rate": 228000,
+      "topics": ["javascript", "react", "frontend", "ui", "library"]
     },
     {
       "id": 2,
       "name": "vue",
       "owner": "vuejs",
       "description": "The Progressive JavaScript Framework",
-      "rate": 207000
+      "rate": 207000,
+      "topics": ["javascript", "vue", "framework", "progressive", "spa"]
     },
     {
       "id": 3,
       "name": "tensorflow",
       "owner": "tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "rate": 185000
+      "rate": 185000,
+      "topics": [
+        "machine-learning",
+        "python",
+        "tensorflow",
+        "ai",
+        "deep-learning"
+      ]
     },
     {
       "id": 4,
       "name": "bootstrap",
       "owner": "twbs",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-      "rate": 170000
+      "rate": 170000,
+      "topics": ["css", "html", "bootstrap", "responsive", "mobile-first"]
     },
     {
       "id": 5,
       "name": "awesome",
       "owner": "sindresorhus",
       "description": "😎 Awesome lists about all kinds of interesting topics",
-      "rate": 317000
+      "rate": 317000,
+      "topics": ["awesome", "lists", "resources", "curated", "collection"]
     },
     {
       "id": 6,
       "name": "vscode",
       "owner": "microsoft",
       "description": "Visual Studio Code",
-      "rate": 163000
+      "rate": 163000,
+      "topics": ["editor", "vscode", "typescript", "ide", "development"]
     },
     {
       "id": 7,
       "name": "next.js",
       "owner": "vercel",
       "description": "The React Framework",
-      "rate": 125000
+      "rate": 125000,
+      "topics": ["react", "nextjs", "framework", "ssr", "vercel"]
     },
     {
       "id": 8,
       "name": "node",
       "owner": "nodejs",
       "description": "Node.js JavaScript runtime",
-      "rate": 107000
+      "rate": 107000,
+      "topics": ["nodejs", "javascript", "runtime", "backend", "server"]
     },
     {
       "id": 9,
       "name": "angular",
       "owner": "angular",
       "description": "Deliver web apps with confidence",
-      "rate": 96000
+      "rate": 96000,
+      "topics": ["angular", "typescript", "framework", "spa", "google"]
     },
     {
       "id": 10,
       "name": "create-react-app",
       "owner": "facebook",
       "description": "Set up a modern web app by running one command.",
-      "rate": 102000
+      "rate": 102000,
+      "topics": ["react", "create-react-app", "boilerplate", "cli", "setup"]
     }
   ]
 }

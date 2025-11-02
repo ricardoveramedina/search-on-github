@@ -21,6 +21,6 @@ export const Default: Story = {
     description:
       "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
     rate: 88200,
-    tags: ["react", "javascript", "testing", "html"],
+    topics: ["react", "typescript", "testing", "html"],
   },
 };
