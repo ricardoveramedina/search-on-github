@@ -32,4 +32,4 @@ Will run storybook where you can check the components created
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-[Vite]https://vite.dev
+[Vite](https://vite.dev)
